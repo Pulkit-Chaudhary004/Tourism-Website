@@ -1,0 +1,51 @@
+
+/* .nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:40px 120px;
+    color:black;
+    cursor:pointer;
+    position:absolute;
+    z-index:10;
+} */
+
+
+
+/* Navbar.css */
+.nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px 40px;
+    color: black;
+    z-index: 10; /* Ensures the navbar is above the background */
+}
+
+.nav-logo{
+    font-family:outfit;
+    font-size:52px;
+    font-weight:200;
+ 
+}
+.nav-menu{
+   display:flex;
+   align-items:center; 
+   justify-content: center;
+   list-style:none;
+   font-size:18px;
+   gap:50px;
+   margin-left:10vw;
+}
+.contact{
+    border-radius:5vh;
+    padding:1.5vh 5vh;
+    background:#a7acac;
+    color:#262626;
+}
+#search{
+    margin-left:2vw;
+}

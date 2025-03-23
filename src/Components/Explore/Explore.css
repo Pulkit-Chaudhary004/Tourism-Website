@@ -1,0 +1,24 @@
+#mapCont {
+    position: relative;
+  }
+  
+  #map {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #map:hover {
+    filter: brightness(0.4) saturate(1.9);
+  }
+  
+  #map:hover + .overlay-text {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.FestivalImage{
+    transition: all 0.3s ease-in-out;
+}
+.FestivalImage:hover{
+    filter: brightness(0.6) saturate(1.2);
+    transform:scale(1.03);
+}
